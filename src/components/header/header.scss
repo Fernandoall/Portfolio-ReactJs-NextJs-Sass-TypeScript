@@ -10,8 +10,8 @@
 
   h1 {
     font-weight: 600;
+    font-size: 28px;
     line-height: 42px;
-    font-size: 25px;
     color: var(--text-primary);
   }
 
@@ -26,10 +26,9 @@
   @media (min-width: 768px) {
     flex-direction: row-reverse;
     align-items: center;
-    gap: 24px;
 
     h1 {
-      font-size: 33px;
+      font-size: 36px;
       line-height: 54px;
     }
 
@@ -41,7 +40,9 @@
 
     img {
       border-radius: 100%;
-      border: 2px white solid;
+      border: 2px solid white;
+      height: 200px;
+      width: 200px;
     }
   }
 }

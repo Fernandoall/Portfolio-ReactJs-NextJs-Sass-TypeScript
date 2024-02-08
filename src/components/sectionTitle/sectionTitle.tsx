@@ -5,5 +5,5 @@ interface SectionTitleProps {
 }
 
 export function SectionTitle({ text }: SectionTitleProps) {
-  return <h3 className="sectionTitle">{text}</h3>;
+  return <h3 className="section-title">{text}</h3>;
 }
